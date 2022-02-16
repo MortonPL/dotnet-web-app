@@ -1,4 +1,4 @@
-# Narzędzia Type RAD 21Z - Projekt - Bartłomiej Moroz
+# Narzędzia Typu RAD 21Z - Projekt
 
 ## Lab 4
 
@@ -10,7 +10,7 @@ Szkielet projektu wytworzono za pomocą następujących komend: `dotnet new reac
 
 ### Instrukcja uruchomienia
 
-1. Sklonowanie repozytorium: `git clone https://gitlab-stud.elka.pw.edu.pl/bmoroz/ntr21z-moroz-bartlomiej.git`
+1. Sklonowanie repozytorium: `git clone https://github.com/MortonPL/dotnet-web-app.git`
 2. Przejście do katalogu projektu: `cd ntr21z-moroz-bartlomiej && cd lab4`
 3. Konfiguracja bazy danych:
     a. (zalecane) poprzez kontener Dockerowy - przygotowany jest plik konfiguracyjny `docker-compose.yaml`. Komenda `docker-compose up` automatycznie pobierze potrzebny obraz i zamontuje go. Baza jest gotowa do działania gdy w konsoli ostatnim logiem będzie `lab4-mysql-db-1  | Version: '5.7.37'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)`.
